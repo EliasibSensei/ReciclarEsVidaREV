@@ -8,16 +8,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: #7fffc1;
     font-family: Arial, sans-serif;
   }
   
   #contenedor-quiz {
-    width: 400px;
+    width: 320px;
     box-shadow: 0px 0px 15px 3px rgb(207, 237, 255);
     background-color: rgb(235, 233, 233);
     padding: 20px;
+    margin-top: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
