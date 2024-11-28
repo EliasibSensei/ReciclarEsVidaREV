@@ -19,11 +19,11 @@ h1 {
 }
 
 #tablero {
-  height: 280px;
-  width: 320px;
+  height: 330px;
+  width: 370px;
   max-width: 500px;
   display: grid;
-  grid-template-columns: repeat(4, 80px);
+  grid-template-columns: repeat(4, 90px);
   margin: 0 10px;
   gap: 2px;
   background-color: #25fa93;
@@ -36,8 +36,8 @@ h1 {
 
 .carta {
   max-width: 100px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   padding: 0;
   margin: 0;
   perspective: 1000px; /* Necesario para el efecto 3D */
