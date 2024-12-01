@@ -52,3 +52,20 @@ h1:hover {
 p {
     font-size: 24px;
 }
+
+/* Modo Oscuro GG */
+
+body.niggamodo {
+    background-color: rgb(49, 49, 49);
+    color: #d3d3d3;
+    a {
+        color: #d3d3d3;
+        background-image: linear-gradient(to bottom, #7a7a7a 70%, rgb(63, 62, 62));
+    }
+    .ini {
+        background-image: linear-gradient(to right, #7a7a7a, #464646, #7a7a7a);
+    }
+    h1 {
+        color: rgb(80, 124, 255);
+    }
+}
