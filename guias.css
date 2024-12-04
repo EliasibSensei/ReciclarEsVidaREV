@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    width: 99vw;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #d3d3d3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ini {
+        background-image: linear-gradient(to right, #d3d3d3, #ededed, #d3d3d3);
+        margin-top: 0px;
+        position: fixed;
+        width: 99vw;
+}
+
+.retorno {
+    text-decoration: none;
+    margin: 0 2vw;
+    padding: 8px 2vw;
+    color: rgb(100, 100, 100);
+    background-image: linear-gradient(to bottom, #ededed 70%, rgb(199, 199, 199));
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.retorno:hover, .retorno:visited, .retorno:active {
+    color: rgb(100, 100, 100);
+}
+
+.links {
+    background: #d3d3d3;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: black;
+    font-size: 20px;
+}
+
+details {
+    cursor: default;
+    margin: 15px 25px;
+    padding: 10px 0;
+    font-size: 18px;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(70, 93, 163);
+    font-size: clamp(20px, 4vw + 1rem , 58px);
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.conte {
+    text-align: center;
+    display: flex;
+    margin: 0 20px;
+    min-height: 250px;
+    padding-top: 150px;
+    flex-wrap: wrap;
+    height: 800px;
+    gap: 20px;
+}
+
+.text {
+    flex: 1;
+    height: max-content;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.manualidades {
+    flex: 2;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+.info {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    min-width: 310px;
+    border-radius: 15px;
+    margin: 40px 10px;
+}
+
+.vid {
+    background-color: #fff;
+    padding: 20px;
+    min-width: 290px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.tags {
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Modo Oscuro GG */
+
+body.niggamodo {
+    background-color: rgb(49, 49, 49);
+    color: #d3d3d3;
+    .info, .vid, .tags {
+        background-color: rgb(73, 73, 73);
+    }
+    .links, .retorno, details {
+        color: #d3d3d3;
+        background-image: linear-gradient(to bottom, #7a7a7a 70%, rgb(63, 62, 62));
+    }
+    .ini {
+        background-image: linear-gradient(to right, #7a7a7a, #464646, #7a7a7a);
+    }
+    h1 {
+        color: rgb(80, 124, 255);
+    }
+}
